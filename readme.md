@@ -5,16 +5,14 @@
 kernel：
 
  * Python
- * Kotlin
  * R
- * Mathematica
-
 
 Python 安装的包：
 
  * Numpy
  * Scipy
  * Sympy
+ * Pandas
  * Matplotlib
  * Scikit-learn
 
