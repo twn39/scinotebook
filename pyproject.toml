@@ -1,0 +1,21 @@
+[project]
+name = "scinotebook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bokeh>=3.6.2",
+    "jupyter>=1.1.1",
+    "jupyter-ai>=2.28.4",
+    "jupyterlab-git>=0.50.2",
+    "langchain-google-genai>=1.0.10",
+    "langchain-openai>=0.1.25",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
+    "scipy>=1.14.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
+    "xarray>=2024.11.0",
+]
