@@ -17,6 +17,8 @@ anyio==4.7.0
     #   httpx
     #   jupyter-server
     #   openai
+appnope==0.1.4
+    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -35,7 +37,9 @@ attrs==24.3.0
 babel==2.16.0
     # via jupyterlab-server
 beautifulsoup4==4.12.3
-    # via nbconvert
+    # via
+    #   nbconvert
+    #   yfinance
 bleach==6.2.0
     # via nbconvert
 bokeh==3.6.2
@@ -100,6 +104,8 @@ fonttools==4.55.3
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
+frozendict==2.4.6
+    # via yfinance
 frozenlist==1.5.0
     # via
     #   aiohttp
@@ -134,8 +140,6 @@ googleapis-common-protos==1.66.0
     # via
     #   google-api-core
     #   grpcio-status
-greenlet==3.1.1
-    # via sqlalchemy
 grpcio==1.68.1
     # via
     #   google-api-core
@@ -144,6 +148,8 @@ grpcio-status==1.62.3
     # via google-api-core
 h11==0.14.0
     # via httpcore
+html5lib==1.1
+    # via yfinance
 httpcore==1.0.7
     # via httpx
 httplib2==0.22.0
@@ -303,6 +309,8 @@ locket==1.0.0
     # via
     #   distributed
     #   partd
+lxml==5.3.0
+    # via yfinance
 markupsafe==3.0.2
     # via
     #   jinja2
@@ -325,6 +333,8 @@ multidict==6.1.0
     # via
     #   aiohttp
     #   yarl
+multitasking==0.0.11
+    # via yfinance
 mypy-extensions==1.0.0
     # via typing-inspect
 nbclient==0.10.2
@@ -352,6 +362,7 @@ notebook-shim==0.2.4
     #   notebook
 numpy==1.26.4
     # via
+    #   scinotebook (pyproject.toml)
     #   bokeh
     #   contourpy
     #   faiss-cpu
@@ -365,6 +376,7 @@ numpy==1.26.4
     #   seaborn
     #   statsmodels
     #   xarray
+    #   yfinance
 openai==1.58.1
     # via langchain-openai
 orjson==3.10.13
@@ -395,6 +407,7 @@ pandas==2.2.3
     #   seaborn
     #   statsmodels
     #   xarray
+    #   yfinance
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
@@ -403,6 +416,8 @@ partd==1.4.2
     # via dask
 patsy==1.0.1
     # via statsmodels
+peewee==3.17.8
+    # via yfinance
 pexpect==4.9.0
     # via
     #   ipython
@@ -412,7 +427,9 @@ pillow==11.0.0
     #   bokeh
     #   matplotlib
 platformdirs==4.3.6
-    # via jupyter-core
+    # via
+    #   jupyter-core
+    #   yfinance
 ply==3.11
     # via jsonpath-ng
 prometheus-client==0.21.1
@@ -483,7 +500,9 @@ python-dateutil==2.9.0.post0
 python-json-logger==3.2.1
     # via jupyter-events
 pytz==2024.2
-    # via pandas
+    # via
+    #   pandas
+    #   yfinance
 pyyaml==6.0.2
     # via
     #   bokeh
@@ -516,6 +535,7 @@ requests==2.32.3
     #   nbdime
     #   requests-toolbelt
     #   tiktoken
+    #   yfinance
 requests-toolbelt==1.0.0
     # via langsmith
 rfc3339-validator==0.1.4
@@ -547,6 +567,7 @@ setuptools==75.6.0
     # via jupyterlab
 six==1.17.0
     # via
+    #   html5lib
     #   python-dateutil
     #   rfc3339-validator
 smmap==5.0.1
@@ -657,6 +678,7 @@ webcolors==24.11.1
 webencodings==0.5.1
     # via
     #   bleach
+    #   html5lib
     #   tinycss2
 websocket-client==1.8.0
     # via jupyter-server
@@ -668,6 +690,8 @@ xyzservices==2024.9.0
     # via bokeh
 yarl==1.18.3
     # via aiohttp
+yfinance==0.2.51
+    # via scinotebook (pyproject.toml)
 zict==3.0.0
     # via distributed
 zipp==3.21.0
