@@ -25,5 +25,4 @@ or
 
 ## Run
 
-    source .venv/bin/activate.fish
-    jupyter lab
+    uv run --with jupyter jupyter lab
