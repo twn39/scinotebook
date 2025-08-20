@@ -2,13 +2,13 @@
 #    uv pip compile pyproject.toml
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.12.7
+aiohttp==3.12.15
     # via langchain-community
-aiosignal==1.3.2
+aiosignal==1.4.0
     # via aiohttp
 annotated-types==0.7.0
     # via pydantic
-anyio==4.9.0
+anyio==4.10.0
     # via
     #   httpx
     #   jupyter-server
@@ -17,7 +17,7 @@ appnope==0.1.4
     # via ipykernel
 argon2-cffi==25.1.0
     # via jupyter-server
-argon2-cffi-bindings==21.2.0
+argon2-cffi-bindings==25.1.0
     # via argon2-cffi
 arrow==1.3.0
     # via isoduration
@@ -40,7 +40,7 @@ bleach==6.2.0
     # via nbconvert
 bokeh==3.7.3
     # via scinotebook (pyproject.toml)
-certifi==2025.4.26
+certifi==2025.8.3
     # via
     #   curl-cffi
     #   httpcore
@@ -50,7 +50,7 @@ cffi==1.17.1
     # via
     #   argon2-cffi-bindings
     #   curl-cffi
-charset-normalizer==3.4.2
+charset-normalizer==3.4.3
     # via requests
 click==8.2.1
     # via
@@ -63,25 +63,25 @@ cloudpickle==3.1.1
     #   distributed
 colorama==0.4.6
     # via nbdime
-comm==0.2.2
+comm==0.2.3
     # via
     #   ipykernel
     #   ipywidgets
-contourpy==1.3.2
+contourpy==1.3.3
     # via
     #   bokeh
     #   matplotlib
-curl-cffi==0.11.1
+curl-cffi==0.13.0
     # via yfinance
 cycler==0.12.1
     # via matplotlib
-dask==2025.5.1
+dask==2025.7.0
     # via
     #   distributed
     #   jupyter-ai
 dataclasses-json==0.6.7
     # via langchain-community
-debugpy==1.8.14
+debugpy==1.8.16
     # via ipykernel
 decorator==5.2.1
     # via ipython
@@ -89,31 +89,31 @@ deepmerge==2.0
     # via jupyter-ai
 defusedxml==0.7.1
     # via nbconvert
-distributed==2025.5.1
+distributed==2025.7.0
     # via dask
 distro==1.9.0
     # via openai
 executing==2.2.0
     # via stack-data
-faiss-cpu==1.11.0
+faiss-cpu==1.12.0
     # via jupyter-ai
-fastjsonschema==2.21.1
+fastjsonschema==2.21.2
     # via nbformat
-fonttools==4.58.1
+fonttools==4.59.1
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
 frozendict==2.4.6
     # via yfinance
-frozenlist==1.6.2
+frozenlist==1.7.0
     # via
     #   aiohttp
     #   aiosignal
-fsspec==2025.5.1
+fsspec==2025.7.0
     # via dask
 gitdb==4.0.12
     # via gitpython
-gitpython==3.1.44
+gitpython==3.1.45
     # via nbdime
 h11==0.16.0
     # via httpcore
@@ -125,7 +125,7 @@ httpx==0.28.1
     #   jupyterlab
     #   langsmith
     #   openai
-httpx-sse==0.4.0
+httpx-sse==0.4.1
     # via langchain-community
 idna==3.10
     # via
@@ -139,12 +139,12 @@ importlib-metadata==8.7.0
     #   dask
     #   jupyter-ai
     #   jupyter-ai-magics
-ipykernel==6.29.5
+ipykernel==6.30.1
     # via
     #   jupyter
     #   jupyter-console
     #   jupyterlab
-ipython==9.3.0
+ipython==9.4.0
     # via
     #   ipykernel
     #   ipywidgets
@@ -171,7 +171,7 @@ jiter==0.10.0
     # via openai
 joblib==1.5.1
     # via scikit-learn
-json5==0.12.0
+json5==0.12.1
     # via jupyterlab-server
 jsonpatch==1.33
     # via langchain-core
@@ -181,7 +181,7 @@ jsonpointer==3.0.0
     # via
     #   jsonpatch
     #   jsonschema
-jsonschema==4.24.0
+jsonschema==4.25.1
     # via
     #   jupyter-events
     #   jupyterlab-server
@@ -190,9 +190,9 @@ jsonschema-specifications==2025.4.1
     # via jsonschema
 jupyter==1.1.1
     # via scinotebook (pyproject.toml)
-jupyter-ai==2.31.4
+jupyter-ai==2.31.6
     # via scinotebook (pyproject.toml)
-jupyter-ai-magics==2.31.4
+jupyter-ai-magics==2.31.6
     # via jupyter-ai
 jupyter-client==8.6.3
     # via
@@ -214,7 +214,7 @@ jupyter-core==5.8.1
     #   nbformat
 jupyter-events==0.12.0
     # via jupyter-server
-jupyter-lsp==2.2.5
+jupyter-lsp==2.2.6
     # via jupyterlab
 jupyter-server==2.16.0
     # via
@@ -231,11 +231,11 @@ jupyter-server-mathjax==0.2.6
     # via nbdime
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.4.3
+jupyterlab==4.4.6
     # via
     #   jupyter
     #   notebook
-jupyterlab-git==0.51.1
+jupyterlab-git==0.51.2
     # via scinotebook (pyproject.toml)
 jupyterlab-pygments==0.3.0
     # via nbconvert
@@ -245,29 +245,31 @@ jupyterlab-server==2.27.3
     #   notebook
 jupyterlab-widgets==3.0.15
     # via ipywidgets
-kiwisolver==1.4.8
+kiwisolver==1.4.9
     # via matplotlib
-langchain==0.3.25
+langchain==0.3.27
     # via
     #   jupyter-ai-magics
     #   langchain-community
-langchain-community==0.3.24
+langchain-community==0.3.27
     # via jupyter-ai-magics
-langchain-core==0.3.63
+langchain-core==0.3.74
     # via
     #   langchain
     #   langchain-community
     #   langchain-openai
     #   langchain-text-splitters
-langchain-openai==0.3.19
+langchain-openai==0.3.30
     # via scinotebook (pyproject.toml)
-langchain-text-splitters==0.3.8
+langchain-text-splitters==0.3.9
     # via langchain
-langsmith==0.3.44
+langsmith==0.4.14
     # via
     #   langchain
     #   langchain-community
     #   langchain-core
+lark==1.2.2
+    # via rfc3987-syntax
 locket==1.0.0
     # via
     #   distributed
@@ -278,7 +280,7 @@ markupsafe==3.0.2
     #   nbconvert
 marshmallow==3.26.1
     # via dataclasses-json
-matplotlib==3.10.3
+matplotlib==3.10.5
     # via
     #   scinotebook (pyproject.toml)
     #   seaborn
@@ -290,17 +292,17 @@ mistune==3.1.3
     # via nbconvert
 mpmath==1.3.0
     # via sympy
-msgpack==1.1.0
+msgpack==1.1.1
     # via distributed
-multidict==6.4.4
+multidict==6.6.4
     # via
     #   aiohttp
     #   yarl
-multitasking==0.0.11
+multitasking==0.0.12
     # via yfinance
 mypy-extensions==1.1.0
     # via typing-inspect
-narwhals==1.41.0
+narwhals==2.1.2
     # via
     #   bokeh
     #   plotly
@@ -321,13 +323,13 @@ nbformat==5.10.4
     #   nbdime
 nest-asyncio==1.6.0
     # via ipykernel
-notebook==7.4.3
+notebook==7.4.5
     # via jupyter
 notebook-shim==0.2.4
     # via
     #   jupyterlab
     #   notebook
-numpy==2.2.6
+numpy==2.3.2
     # via
     #   scinotebook (pyproject.toml)
     #   bokeh
@@ -343,13 +345,13 @@ numpy==2.2.6
     #   statsmodels
     #   xarray
     #   yfinance
-openai==1.84.0
+openai==1.100.2
     # via langchain-openai
-orjson==3.10.18
+orjson==3.11.2
     # via langsmith
 overrides==7.7.0
     # via jupyter-server
-packaging==24.2
+packaging==25.0
     # via
     #   bokeh
     #   dask
@@ -369,7 +371,7 @@ packaging==24.2
     #   plotly
     #   statsmodels
     #   xarray
-pandas==2.2.3
+pandas==2.3.1
     # via
     #   scinotebook (pyproject.toml)
     #   bokeh
@@ -385,21 +387,23 @@ partd==1.4.2
     # via dask
 patsy==1.0.1
     # via statsmodels
-peewee==3.18.1
+peewee==3.18.2
     # via yfinance
 pexpect==4.9.0
     # via
     #   ipython
     #   jupyterlab-git
-pillow==11.2.1
+pillow==11.3.0
     # via
     #   bokeh
     #   matplotlib
+pip==25.2
+    # via scinotebook (pyproject.toml)
 platformdirs==4.3.8
     # via
     #   jupyter-core
     #   yfinance
-plotly==6.1.2
+plotly==6.3.0
     # via scinotebook (pyproject.toml)
 ply==3.11
     # via jsonpath-ng
@@ -409,11 +413,11 @@ prompt-toolkit==3.0.51
     # via
     #   ipython
     #   jupyter-console
-propcache==0.3.1
+propcache==0.3.2
     # via
     #   aiohttp
     #   yarl
-protobuf==6.31.1
+protobuf==6.32.0
     # via yfinance
 psutil==7.0.0
     # via
@@ -427,7 +431,7 @@ pure-eval==0.2.3
     # via stack-data
 pycparser==2.22
     # via cffi
-pydantic==2.11.5
+pydantic==2.11.7
     # via
     #   jupyter-ai
     #   jupyter-ai-magics
@@ -438,9 +442,9 @@ pydantic==2.11.5
     #   pydantic-settings
 pydantic-core==2.33.2
     # via pydantic
-pydantic-settings==2.9.1
+pydantic-settings==2.10.1
     # via langchain-community
-pygments==2.19.1
+pygments==2.19.2
     # via
     #   ipython
     #   ipython-pygments-lexers
@@ -455,7 +459,7 @@ python-dateutil==2.9.0.post0
     #   jupyter-client
     #   matplotlib
     #   pandas
-python-dotenv==1.1.0
+python-dotenv==1.1.1
     # via pydantic-settings
 python-json-logger==3.3.0
     # via jupyter-events
@@ -472,7 +476,7 @@ pyyaml==6.0.2
     #   langchain
     #   langchain-community
     #   langchain-core
-pyzmq==26.4.0
+pyzmq==27.0.1
     # via
     #   ipykernel
     #   jupyter-client
@@ -483,9 +487,9 @@ referencing==0.36.2
     #   jsonschema
     #   jsonschema-specifications
     #   jupyter-events
-regex==2024.11.6
+regex==2025.7.34
     # via tiktoken
-requests==2.32.3
+requests==2.32.5
     # via
     #   jupyterlab-server
     #   langchain
@@ -505,13 +509,15 @@ rfc3986-validator==0.1.1
     # via
     #   jsonschema
     #   jupyter-events
-rpds-py==0.25.1
+rfc3987-syntax==1.1.0
+    # via jsonschema
+rpds-py==0.27.0
     # via
     #   jsonschema
     #   referencing
-scikit-learn==1.6.1
+scikit-learn==1.7.1
     # via scinotebook (pyproject.toml)
-scipy==1.15.3
+scipy==1.16.1
     # via
     #   scinotebook (pyproject.toml)
     #   scikit-learn
@@ -536,13 +542,13 @@ sortedcontainers==2.4.0
     # via distributed
 soupsieve==2.7
     # via beautifulsoup4
-sqlalchemy==2.0.41
+sqlalchemy==2.0.43
     # via
     #   langchain
     #   langchain-community
 stack-data==0.6.3
     # via ipython
-statsmodels==0.14.4
+statsmodels==0.14.5
     # via scinotebook (pyproject.toml)
 sympy==1.14.0
     # via scinotebook (pyproject.toml)
@@ -558,7 +564,7 @@ terminado==0.18.1
     #   jupyter-server-terminals
 threadpoolctl==3.6.0
     # via scikit-learn
-tiktoken==0.9.0
+tiktoken==0.11.0
     # via langchain-openai
 tinycss2==1.4.0
     # via bleach
@@ -567,7 +573,7 @@ toolz==1.0.0
     #   dask
     #   distributed
     #   partd
-tornado==6.5.1
+tornado==6.5.2
     # via
     #   bokeh
     #   distributed
@@ -582,7 +588,6 @@ tqdm==4.67.1
     # via openai
 traitlets==5.14.3
     # via
-    #   comm
     #   ipykernel
     #   ipython
     #   ipywidgets
@@ -598,10 +603,11 @@ traitlets==5.14.3
     #   nbclient
     #   nbconvert
     #   nbformat
-types-python-dateutil==2.9.0.20250516
+types-python-dateutil==2.9.0.20250809
     # via arrow
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
+    #   aiosignal
     #   anyio
     #   beautifulsoup4
     #   ipython
@@ -623,7 +629,7 @@ tzdata==2025.2
     # via pandas
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.4.0
+urllib3==2.5.0
     # via
     #   distributed
     #   requests
@@ -641,17 +647,17 @@ websockets==15.0.1
     # via yfinance
 widgetsnbextension==4.0.14
     # via ipywidgets
-xarray==2025.4.0
+xarray==2025.8.0
     # via scinotebook (pyproject.toml)
 xyzservices==2025.4.0
     # via bokeh
-yarl==1.20.0
+yarl==1.20.1
     # via aiohttp
-yfinance==0.2.61
+yfinance==0.2.65
     # via scinotebook (pyproject.toml)
 zict==3.0.0
     # via distributed
-zipp==3.22.0
+zipp==3.23.0
     # via importlib-metadata
-zstandard==0.23.0
+zstandard==0.24.0
     # via langsmith
