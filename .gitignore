@@ -7,3 +7,4 @@
 catboost_info
 ML/*.png
 .env
+__pycache__
