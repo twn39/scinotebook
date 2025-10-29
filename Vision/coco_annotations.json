@@ -82,11 +82,11 @@
       "category_id": 0,
       "bbox": [
         379.9,
-        452.35,
+        450.82,
         30.72,
-        50.69
+        52.22
       ],
-      "area": 1557.14,
+      "area": 1604.32,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -149,12 +149,12 @@
       "image_id": 1,
       "category_id": 0,
       "bbox": [
-        562.18,
+        561.15,
         339.46,
-        24.58,
+        25.6,
         41.47
       ],
-      "area": 1019.22,
+      "area": 1061.68,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -203,9 +203,9 @@
         569.34,
         121.34,
         17.41,
-        23.81
+        22.27
       ],
-      "area": 414.45,
+      "area": 387.71,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -251,12 +251,12 @@
       "image_id": 1,
       "category_id": 0,
       "bbox": [
-        548.86,
-        79.1,
-        15.36,
+        547.84,
+        78.34,
+        16.38,
         19.97
       ],
-      "area": 306.71,
+      "area": 327.16,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -269,11 +269,11 @@
       "category_id": 0,
       "bbox": [
         571.39,
-        74.5,
-        13.31,
-        16.9
+        72.96,
+        14.34,
+        18.43
       ],
-      "area": 224.92,
+      "area": 264.24,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -286,11 +286,11 @@
       "category_id": 0,
       "bbox": [
         590.85,
-        85.25,
-        15.36,
-        19.2
+        83.71,
+        16.38,
+        19.97
       ],
-      "area": 294.91,
+      "area": 327.16,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -302,12 +302,12 @@
       "image_id": 1,
       "category_id": 0,
       "bbox": [
-        611.33,
-        63.74,
-        14.34,
-        19.2
+        610.3,
+        62.21,
+        16.38,
+        19.97
       ],
-      "area": 275.25,
+      "area": 327.16,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -321,10 +321,10 @@
       "bbox": [
         550.91,
         48.38,
-        14.34,
+        15.36,
         18.43
       ],
-      "area": 264.24,
+      "area": 283.12,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -339,9 +339,9 @@
         564.22,
         0.0,
         14.34,
-        13.06
+        11.52
       ],
-      "area": 187.17,
+      "area": 165.15,
       "iscrowd": 0,
       "attributes": {
         "vehicle_type": "car",
@@ -370,7 +370,7 @@
       "image_id": 1,
       "category_id": 0,
       "bbox": [
-        611.33,
+        612.35,
         35.33,
         14.34,
         17.66
@@ -385,346 +385,6 @@
     {
       "id": 23,
       "image_id": 1,
-      "category_id": 2,
-      "bbox": [
-        585.73,
-        13.06,
-        22.53,
-        48.38
-      ],
-      "area": 1089.99,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "truck",
-        "vehicle_color": "red"
-      }
-    },
-    {
-      "id": 24,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        736.26,
-        360.19,
-        43.01,
-        32.26
-      ],
-      "area": 1387.27,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "red"
-      }
-    },
-    {
-      "id": 25,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        762.88,
-        311.04,
-        35.84,
-        39.17
-      ],
-      "area": 1403.78,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 26,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        713.73,
-        246.53,
-        34.82,
-        23.04
-      ],
-      "area": 802.16,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 27,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        705.54,
-        225.79,
-        38.91,
-        22.27
-      ],
-      "area": 866.65,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 28,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        699.39,
-        211.2,
-        38.91,
-        19.97
-      ],
-      "area": 776.99,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 29,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        749.57,
-        198.91,
-        27.65,
-        19.97
-      ],
-      "area": 552.08,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "red"
-      }
-    },
-    {
-      "id": 30,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        696.32,
-        175.87,
-        18.43,
-        23.04
-      ],
-      "area": 424.67,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 31,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        836.61,
-        289.54,
-        47.1,
-        23.04
-      ],
-      "area": 1085.28,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 32,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        846.85,
-        311.04,
-        43.01,
-        19.97
-      ],
-      "area": 858.78,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 33,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        891.9,
-        275.71,
-        36.86,
-        21.5
-      ],
-      "area": 792.72,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 34,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        896.0,
-        295.68,
-        34.82,
-        21.5
-      ],
-      "area": 748.68,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 35,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        904.19,
-        633.6,
-        51.2,
-        69.12
-      ],
-      "area": 3538.94,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 36,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        936.96,
-        627.46,
-        49.15,
-        69.12
-      ],
-      "area": 3397.39,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 37,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        977.92,
-        630.53,
-        45.06,
-        66.05
-      ],
-      "area": 2975.86,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 38,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        877.57,
-        716.54,
-        75.78,
-        50.69
-      ],
-      "area": 3840.93,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 39,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        984.06,
-        699.65,
-        38.91,
-        67.58
-      ],
-      "area": 2629.83,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 40,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        955.39,
-        751.87,
-        38.91,
-        15.36
-      ],
-      "area": 597.69,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 41,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        303.1,
-        730.37,
-        44.03,
-        36.86
-      ],
-      "area": 1623.2,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "white"
-      }
-    },
-    {
-      "id": 42,
-      "image_id": 1,
-      "category_id": 0,
-      "bbox": [
-        793.6,
-        175.87,
-        43.01,
-        36.86
-      ],
-      "area": 1585.45,
-      "iscrowd": 0,
-      "attributes": {
-        "vehicle_type": "car",
-        "vehicle_color": "black"
-      }
-    },
-    {
-      "id": 43,
-      "image_id": 1,
       "category_id": 0,
       "bbox": [
         507.9,
@@ -737,6 +397,363 @@
       "attributes": {
         "vehicle_type": "car",
         "vehicle_color": "white"
+      }
+    },
+    {
+      "id": 24,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        303.1,
+        729.6,
+        44.03,
+        37.63
+      ],
+      "area": 1657.01,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "white"
+      }
+    },
+    {
+      "id": 25,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        736.26,
+        360.19,
+        41.98,
+        32.26
+      ],
+      "area": 1354.24,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "red"
+      }
+    },
+    {
+      "id": 26,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        762.88,
+        311.04,
+        34.82,
+        39.94
+      ],
+      "area": 1390.41,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 27,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        696.32,
+        175.87,
+        17.41,
+        24.58
+      ],
+      "area": 427.82,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "white"
+      }
+    },
+    {
+      "id": 28,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        704.51,
+        224.26,
+        43.01,
+        22.27
+      ],
+      "area": 957.87,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 29,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        708.61,
+        246.53,
+        40.96,
+        23.04
+      ],
+      "area": 943.72,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 30,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        748.54,
+        197.38,
+        28.67,
+        23.04
+      ],
+      "area": 660.6,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "red"
+      }
+    },
+    {
+      "id": 31,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        793.6,
+        175.87,
+        43.01,
+        33.79
+      ],
+      "area": 1453.33,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 32,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        841.73,
+        272.64,
+        38.91,
+        23.04
+      ],
+      "area": 896.53,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 33,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        846.85,
+        307.97,
+        43.01,
+        23.04
+      ],
+      "area": 990.9,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 34,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        890.88,
+        275.71,
+        37.89,
+        21.5
+      ],
+      "area": 814.74,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "white"
+      }
+    },
+    {
+      "id": 35,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        892.93,
+        295.68,
+        35.84,
+        23.04
+      ],
+      "area": 825.75,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "white"
+      }
+    },
+    {
+      "id": 36,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        903.17,
+        633.6,
+        51.2,
+        69.12
+      ],
+      "area": 3538.94,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "white"
+      }
+    },
+    {
+      "id": 37,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        939.01,
+        628.99,
+        49.15,
+        67.58
+      ],
+      "area": 3321.89,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 38,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        975.87,
+        632.06,
+        47.1,
+        66.05
+      ],
+      "area": 3111.12,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "white"
+      }
+    },
+    {
+      "id": 39,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        877.57,
+        716.54,
+        76.8,
+        50.69
+      ],
+      "area": 3892.84,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 40,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        986.11,
+        699.65,
+        36.86,
+        67.58
+      ],
+      "area": 2491.42,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "car",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 41,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        585.73,
+        11.52,
+        23.55,
+        47.62
+      ],
+      "area": 1121.45,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "truck",
+        "vehicle_color": "red"
+      }
+    },
+    {
+      "id": 42,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        327.68,
+        297.22,
+        13.31,
+        18.43
+      ],
+      "area": 245.37,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "bicycle",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 43,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        184.32,
+        693.5,
+        15.36,
+        29.18
+      ],
+      "area": 448.27,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "bicycle",
+        "vehicle_color": "black"
+      }
+    },
+    {
+      "id": 44,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        726.02,
+        288.0,
+        13.31,
+        18.43
+      ],
+      "area": 245.37,
+      "iscrowd": 0,
+      "attributes": {
+        "vehicle_type": "bicycle",
+        "vehicle_color": "black"
       }
     }
   ],
