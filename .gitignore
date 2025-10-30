@@ -8,3 +8,4 @@ catboost_info
 ML/*.png
 .env
 __pycache__
+*.pt
